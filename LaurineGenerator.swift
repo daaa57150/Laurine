@@ -1855,7 +1855,7 @@ class TemplateFactory {
             tableName = ""
         }
         return TemplateFactory.contentIndentForLevel(contentLevel: contentLevel) + "/// Base translation: \(baseTranslation)\n"
-             + TemplateFactory.contentIndentForLevel(contentLevel: contentLevel) + "public static var \(name) : String = NSLocalizedString(\"\(key)\", \(tableName)comment: \"\")\n"
+             + TemplateFactory.contentIndentForLevel(contentLevel: contentLevel) + "public static var \(name) : String = NSLocalizedString(\"\(key)\", \(tableName)comment: \"\(baseTranslation)\")\n"
     }
     
     
