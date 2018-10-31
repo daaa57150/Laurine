@@ -75,7 +75,7 @@ class ContributorAPI {
                     handler(contributor, nil)
                 }
             } else {
-                handler(nil, response.result.error as? NSError)
+                handler(nil, response.result.error as NSError?)
             }
         }
     }

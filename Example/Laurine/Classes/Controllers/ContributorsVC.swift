@@ -95,7 +95,7 @@ class ContributorsVC : UIViewController {
         // Forward contributor object if we are showing profile page
         if segue.identifier! == SEGUE_SHOW_DETAIL {
             let dvc = segue.destination as! DetailVC
-            dvc.contributor = sender as! Contributor
+            dvc.contributor = sender as? Contributor
         }
     }
 }

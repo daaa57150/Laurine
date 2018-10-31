@@ -20,10 +20,10 @@ public struct Localizations {
     public struct Contributors {
 
         /// Base translation: This is the list of people who contributed with their work to make Laurine Better - it is also great example of how to use it, and my way how to say thank you!
-        public static var Header : String = NSLocalizedString("Contributors.Header", comment: "")
+        public static var Header : String = NSLocalizedString("Contributors.Header", comment: "This is the list of people who contributed with their work to make Laurine Better - it is also great example of how to use it, and my way how to say thank you!")
 
         /// Base translation: Thanks everyone! You rock!
-        public static var Footer : String = NSLocalizedString("Contributors.Footer", comment: "")
+        public static var Footer : String = NSLocalizedString("Contributors.Footer", comment: "Thanks everyone! You rock!")
 
 
         public struct Contributor {
@@ -32,7 +32,7 @@ public struct Localizations {
             public struct Contributed {
 
                 /// Base translation: 1 contribution
-                public static var Singular : String = NSLocalizedString("Contributors.Contributor.Contributed.Singular", comment: "")
+                public static var Singular : String = NSLocalizedString("Contributors.Contributor.Contributed.Singular", comment: "1 contribution")
 
                 /// Base translation: %d contributions
                 public static func Plural(_ value1 : Int) -> String {
@@ -45,27 +45,27 @@ public struct Localizations {
         public struct NavigationBar {
 
             /// Base translation: Laurine Lovers
-            public static var Title : String = NSLocalizedString("Contributors.NavigationBar.Title", comment: "")
+            public static var Title : String = NSLocalizedString("Contributors.NavigationBar.Title", comment: "Laurine Lovers")
 
         }
     }
 
     public struct SpecialCases {
 
-        /// Base translation: SpecialCases.DotAtEnd.
-        public static var DotAtEnd : String = NSLocalizedString("SpecialCases.DotAtEnd.", comment: "")
-
         /// Base translation: .SpecialCases.DotAtBeginning
-        public static var DotAtBeginning : String = NSLocalizedString(".SpecialCases.DotAtBeginning", comment: "")
+        public static var DotAtBeginning : String = NSLocalizedString(".SpecialCases.DotAtBeginning", comment: ".SpecialCases.DotAtBeginning")
+
+        /// Base translation: SpecialCases.DotAtEnd.
+        public static var DotAtEnd : String = NSLocalizedString("SpecialCases.DotAtEnd.", comment: "SpecialCases.DotAtEnd.")
 
         /// Base translation: Special Cases - Several Dots In The Middle
-        public static var SeveralDotsInTheMiddle : String = NSLocalizedString("SpecialCases...SeveralDotsInTheMiddle", comment: "")
-
-        /// Base translation: Special Cases Text With New Line
-        public static var TextWithNewLine : String = NSLocalizedString("SpecialCases.TextWithNewLine", comment: "")
+        public static var SeveralDotsInTheMiddle : String = NSLocalizedString("SpecialCases...SeveralDotsInTheMiddle", comment: "Special Cases - Several Dots In The Middle")
 
         /// Base translation: Special Cases - DotAtBeginningAndEnd
-        public static var DotAtBeginningAndEnd : String = NSLocalizedString(".SpecialCases.DotAtBeginningAndEnd.", comment: "")
+        public static var DotAtBeginningAndEnd : String = NSLocalizedString(".SpecialCases.DotAtBeginningAndEnd.", comment: "Special Cases - DotAtBeginningAndEnd")
+
+        /// Base translation: Special Cases Text With New Line
+        public static var TextWithNewLine : String = NSLocalizedString("SpecialCases.TextWithNewLine", comment: "Special Cases Text With New Line")
 
 
         public struct Swift {
@@ -77,7 +77,7 @@ public struct Localizations {
                 public struct IamKeyword {
 
                     /// Base translation: I am Swift Keyword
-                    public static var _true : String = NSLocalizedString("SpecialCases.Swift.Errors.IamKeyword.true", comment: "")
+                    public static var _true : String = NSLocalizedString("SpecialCases.Swift.Errors.IamKeyword.true", comment: "I am Swift Keyword")
 
                 }
             }
@@ -92,7 +92,7 @@ public struct Localizations {
                 public struct IamKeyword {
 
                     /// Base translation: I am Objc Keyword
-                    public static var YES : String = NSLocalizedString("SpecialCases.ObjC.Errors.IamKeyword.YES", comment: "")
+                    public static var YES : String = NSLocalizedString("SpecialCases.ObjC.Errors.IamKeyword.YES", comment: "I am Objc Keyword")
 
                 }
             }
@@ -104,7 +104,7 @@ public struct Localizations {
             public struct Errors {
 
                 /// Base translation: I start with number
-                public static var _1StartWithNumber : String = NSLocalizedString("SpecialCases.General.Errors.1StartWithNumber", comment: "")
+                public static var _1StartWithNumber : String = NSLocalizedString("SpecialCases.General.Errors.1StartWithNumber", comment: "I start with number")
 
             }
         }
@@ -116,34 +116,34 @@ public struct Localizations {
         public struct Misc {
 
             /// Base translation: * Yes, this contributor is awesome
-            public static var LoveNote : String = NSLocalizedString("DetailScreen.Misc.LoveNote", comment: "")
+            public static var LoveNote : String = NSLocalizedString("DetailScreen.Misc.LoveNote", comment: "* Yes, this contributor is awesome")
 
         }
 
         public struct Stats {
 
             /// Base translation: Repositories
-            public static var Repositories : String = NSLocalizedString("DetailScreen.Stats.Repositories", comment: "")
+            public static var Repositories : String = NSLocalizedString("DetailScreen.Stats.Repositories", comment: "Repositories")
 
             /// Base translation: Following
-            public static var Following : String = NSLocalizedString("DetailScreen.Stats.Following", comment: "")
+            public static var Following : String = NSLocalizedString("DetailScreen.Stats.Following", comment: "Following")
 
             /// Base translation: Followers
-            public static var Followers : String = NSLocalizedString("DetailScreen.Stats.Followers", comment: "")
+            public static var Followers : String = NSLocalizedString("DetailScreen.Stats.Followers", comment: "Followers")
 
         }
 
         public struct Buttons {
 
             /// Base translation: Check my profile on GitHub.com >
-            public static var GITHubProfile : String = NSLocalizedString("DetailScreen.Buttons.GITHubProfile", comment: "")
+            public static var GITHubProfile : String = NSLocalizedString("DetailScreen.Buttons.GITHubProfile", comment: "Check my profile on GitHub.com >")
 
         }
 
         public struct NavigationBar {
 
             /// Base translation: User profile
-            public static var Title : String = NSLocalizedString("DetailScreen.NavigationBar.Title", comment: "")
+            public static var Title : String = NSLocalizedString("DetailScreen.NavigationBar.Title", comment: "User profile")
 
         }
     }
@@ -151,7 +151,7 @@ public struct Localizations {
     public struct Special_Cases_Whitespaces__Foo {
 
         /// Base translation: Special Cases Whitespaces  Foo.Bar 
-        public static var Bar_ : String = NSLocalizedString("Special Cases Whitespaces  Foo.Bar ", comment: "")
+        public static var Bar_ : String = NSLocalizedString("Special Cases Whitespaces  Foo.Bar ", comment: "Special Cases Whitespaces  Foo.Bar ")
 
     }
 }
